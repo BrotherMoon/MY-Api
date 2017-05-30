@@ -11,7 +11,9 @@ module.exports = {
         zhihu: 'https://www.zhihu.com/explore#daily-hot',
         ttmeiju: 'http://www.ttmeiju.com/',
         douban: 'https://movie.douban.com/',
-        csdn: 'http://www.csdn.net/'
+        csdn: 'http://www.csdn.net/',
+        oneIdList: 'http://v3.wufazhuce.com:8000/api/onelist/idlist/?channel=wdj&version=4.0.2&uuid=ffffffff-a90e-706a-63f7-ccf973aae5ee&platform=android',
+        todayOne: (id) => `http://v3.wufazhuce.com:8000/api/onelist/${id}/0?channel=wdj&version=4.0.2&uuid=ffffffff-a90e-706a-63f7-ccf973aae5ee&platform=android`
     },
     perfix: {
         segmentfaults: 'https://segmentfault.com',

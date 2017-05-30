@@ -14,4 +14,5 @@ module.exports = (app) => {
     app.use('/api/douban', require('./douban'));
     app.use('/api/csdn', require('./csdn'));
     app.use('/api/message', require('./message'));
+    app.use('/api/one', require('./one'))
 };
